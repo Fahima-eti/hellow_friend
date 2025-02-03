@@ -1,11 +1,12 @@
 
 import 'package:flutter/material.dart';
+import 'package:hellow_friend/Practice.dart';
 import 'package:hellow_friend/UI%20Project.dart';
 
-import '2ndAssignment.dart';
+
 void main(){
   runApp(MaterialApp(
-    home: Assignment(),
+    home: Practice(),
   ));
 }
 
