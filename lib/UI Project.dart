@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 
@@ -40,29 +41,31 @@ class ImagePart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    appBar:AppBar(
-      title:Text("ImagePart"),
-      centerTitle: true,
-    ),
-      body:SingleChildScrollView(
-            child: Column(
-              children: [
-              Image.network("https://media.istockphoto.com/id/2170790699/photo/a-christmas-tree-ornament-with-a-glass-ball-inside-of-it.jpg?s=1024x1024&w=is&k=20&c=0eHE_Ma2Tz-GtLuc4OELW_ZwAIUS5s35Sc-Tim4xLLs="),
-            Image.asset("asset/preview.jpg"),
-                Container(
-                  height: 200,
-                  width: 200,
-                  color: Colors.pink.shade100,
-                  child: Center(
-                    child: Text("Hellow World",
-                    style: TextStyle(fontSize: 20,color: Colors.blue),),
-                  ),
-                )
+
+      appBar:AppBar(
+        title:Text("ImagePart"),
+        centerTitle: true,
+      ),
+        body:SingleChildScrollView(
+              child: Column(
+                children: [
+                Image.network("https://media.istockphoto.com/id/2170790699/photo/a-christmas-tree-ornament-with-a-glass-ball-inside-of-it.jpg?s=1024x1024&w=is&k=20&c=0eHE_Ma2Tz-GtLuc4OELW_ZwAIUS5s35Sc-Tim4xLLs="),
+              Image.asset("asset/preview.jpg"),
+                  Container(
+                    height: 200,
+                    width: 200,
+                    color: Colors.pink.shade100,
+                    child: Center(
+                      child: Text("Hellow World",
+                      style: TextStyle(fontSize: 20,color: Colors.blue),),
+                    ),
+                  )
 
 
-              ],
-            ),
-          )
+                ],
+              ),
+            )
+      
     );
   }
 }

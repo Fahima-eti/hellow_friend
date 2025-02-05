@@ -1,4 +1,5 @@
 
+
 import 'package:flutter/material.dart';
 import 'package:hellow_friend/Practice.dart';
 import 'package:hellow_friend/UI%20Project.dart';
@@ -6,9 +7,10 @@ import 'package:hellow_friend/UI%20Project.dart';
 
 void main(){
   runApp(MaterialApp(
-    home: Practice(),
+    home: TestExam(),
   ));
 }
+
 
 class Home extends StatefulWidget {
   const Home({super.key});
